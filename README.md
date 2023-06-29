@@ -13,6 +13,7 @@ Here in SwiftUI, since we need the data model in view from view model. But in MV
 
 ## Output:
 
+https://github.com/rahulguptaiOS/Radiusagent/assets/21958208/ecb70f37-d525-4286-90db-fefe7ca45927
 
-https://github.com/rahulguptaiOS/Radiusagent/assets/21958208/8baa434e-e29d-485b-b5cc-edd80fd3c55a
+
 
