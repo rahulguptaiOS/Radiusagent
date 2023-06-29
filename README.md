@@ -11,3 +11,8 @@ Since this project has only single screen with single API, so there is no issue 
 
 Here in SwiftUI, since we need the data model in view from view model. But in MVVM, the view model and view should be loosly coupled, so I created FacilityViewModel as ObservableObject and kept instance of FacilityViewModel as ObservedObject in view. Since data model is declared as Published so whenever there will be any change in data model, the instance will be automatically updated in view. 
 
+## Output:
+
+
+https://github.com/rahulguptaiOS/Radiusagent/assets/21958208/8baa434e-e29d-485b-b5cc-edd80fd3c55a
+
