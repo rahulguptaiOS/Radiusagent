@@ -1,0 +1,673 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B1AAFE32A4DD55D00AB6D97 /* FacilityManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AAFE22A4DD55D00AB6D97 /* FacilityManagementApp.swift */; };
+		3B1AAFE52A4DD55D00AB6D97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AAFE42A4DD55D00AB6D97 /* ContentView.swift */; };
+		3B1AAFE72A4DD55F00AB6D97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1AAFE62A4DD55F00AB6D97 /* Assets.xcassets */; };
+		3B1AAFEB2A4DD55F00AB6D97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B1AAFEA2A4DD55F00AB6D97 /* Preview Assets.xcassets */; };
+		3B1AAFF52A4DD56000AB6D97 /* FacilityManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AAFF42A4DD56000AB6D97 /* FacilityManagementTests.swift */; };
+		3B1AAFFF2A4DD56000AB6D97 /* FacilityManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AAFFE2A4DD56000AB6D97 /* FacilityManagementUITests.swift */; };
+		3B1AB0012A4DD56000AB6D97 /* FacilityManagementUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB0002A4DD56000AB6D97 /* FacilityManagementUITestsLaunchTests.swift */; };
+		3B1AB00F2A4DD5B700AB6D97 /* FacilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB00E2A4DD5B700AB6D97 /* FacilityView.swift */; };
+		3B1AB0112A4DD5EA00AB6D97 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB0102A4DD5EA00AB6D97 /* CapsuleView.swift */; };
+		3B1AB0142A4DD62900AB6D97 /* Option.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB0132A4DD62900AB6D97 /* Option.swift */; };
+		3B1AB0162A4DD65F00AB6D97 /* Exclusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB0152A4DD65F00AB6D97 /* Exclusion.swift */; };
+		3B1AB0182A4DD69900AB6D97 /* Facility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB0172A4DD69900AB6D97 /* Facility.swift */; };
+		3B1AB01A2A4DD6C600AB6D97 /* FacilitiesContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB0192A4DD6C600AB6D97 /* FacilitiesContainer.swift */; };
+		3B1AB01D2A4DD71600AB6D97 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB01C2A4DD71600AB6D97 /* NetworkManager.swift */; };
+		3B1AB0202A4DD76C00AB6D97 /* FacilityViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1AB01F2A4DD76C00AB6D97 /* FacilityViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B1AAFF12A4DD56000AB6D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B1AAFD72A4DD55D00AB6D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1AAFDE2A4DD55D00AB6D97;
+			remoteInfo = FacilityManagement;
+		};
+		3B1AAFFB2A4DD56000AB6D97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B1AAFD72A4DD55D00AB6D97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B1AAFDE2A4DD55D00AB6D97;
+			remoteInfo = FacilityManagement;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B1AAFDF2A4DD55D00AB6D97 /* FacilityManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FacilityManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1AAFE22A4DD55D00AB6D97 /* FacilityManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityManagementApp.swift; sourceTree = "<group>"; };
+		3B1AAFE42A4DD55D00AB6D97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B1AAFE62A4DD55F00AB6D97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B1AAFE82A4DD55F00AB6D97 /* FacilityManagement.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FacilityManagement.entitlements; sourceTree = "<group>"; };
+		3B1AAFEA2A4DD55F00AB6D97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B1AAFF02A4DD56000AB6D97 /* FacilityManagementTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacilityManagementTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1AAFF42A4DD56000AB6D97 /* FacilityManagementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityManagementTests.swift; sourceTree = "<group>"; };
+		3B1AAFFA2A4DD56000AB6D97 /* FacilityManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacilityManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1AAFFE2A4DD56000AB6D97 /* FacilityManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityManagementUITests.swift; sourceTree = "<group>"; };
+		3B1AB0002A4DD56000AB6D97 /* FacilityManagementUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityManagementUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3B1AB00E2A4DD5B700AB6D97 /* FacilityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityView.swift; sourceTree = "<group>"; };
+		3B1AB0102A4DD5EA00AB6D97 /* CapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleView.swift; sourceTree = "<group>"; };
+		3B1AB0132A4DD62900AB6D97 /* Option.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Option.swift; sourceTree = "<group>"; };
+		3B1AB0152A4DD65F00AB6D97 /* Exclusion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exclusion.swift; sourceTree = "<group>"; };
+		3B1AB0172A4DD69900AB6D97 /* Facility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facility.swift; sourceTree = "<group>"; };
+		3B1AB0192A4DD6C600AB6D97 /* FacilitiesContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilitiesContainer.swift; sourceTree = "<group>"; };
+		3B1AB01C2A4DD71600AB6D97 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		3B1AB01F2A4DD76C00AB6D97 /* FacilityViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacilityViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B1AAFDC2A4DD55D00AB6D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1AAFED2A4DD56000AB6D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1AAFF72A4DD56000AB6D97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B1AAFD62A4DD55D00AB6D97 = {
+			isa = PBXGroup;
+			children = (
+				3B1AAFE12A4DD55D00AB6D97 /* FacilityManagement */,
+				3B1AAFF32A4DD56000AB6D97 /* FacilityManagementTests */,
+				3B1AAFFD2A4DD56000AB6D97 /* FacilityManagementUITests */,
+				3B1AAFE02A4DD55D00AB6D97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B1AAFE02A4DD55D00AB6D97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AAFDF2A4DD55D00AB6D97 /* FacilityManagement.app */,
+				3B1AAFF02A4DD56000AB6D97 /* FacilityManagementTests.xctest */,
+				3B1AAFFA2A4DD56000AB6D97 /* FacilityManagementUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B1AAFE12A4DD55D00AB6D97 /* FacilityManagement */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AB01E2A4DD74F00AB6D97 /* ViewModel */,
+				3B1AB01B2A4DD6F200AB6D97 /* NetworkManager */,
+				3B1AB0122A4DD61600AB6D97 /* Models */,
+				3B1AB00D2A4DD59800AB6D97 /* Views */,
+				3B1AAFE22A4DD55D00AB6D97 /* FacilityManagementApp.swift */,
+				3B1AAFE62A4DD55F00AB6D97 /* Assets.xcassets */,
+				3B1AAFE82A4DD55F00AB6D97 /* FacilityManagement.entitlements */,
+				3B1AAFE92A4DD55F00AB6D97 /* Preview Content */,
+			);
+			path = FacilityManagement;
+			sourceTree = "<group>";
+		};
+		3B1AAFE92A4DD55F00AB6D97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AAFEA2A4DD55F00AB6D97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B1AAFF32A4DD56000AB6D97 /* FacilityManagementTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AAFF42A4DD56000AB6D97 /* FacilityManagementTests.swift */,
+			);
+			path = FacilityManagementTests;
+			sourceTree = "<group>";
+		};
+		3B1AAFFD2A4DD56000AB6D97 /* FacilityManagementUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AAFFE2A4DD56000AB6D97 /* FacilityManagementUITests.swift */,
+				3B1AB0002A4DD56000AB6D97 /* FacilityManagementUITestsLaunchTests.swift */,
+			);
+			path = FacilityManagementUITests;
+			sourceTree = "<group>";
+		};
+		3B1AB00D2A4DD59800AB6D97 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AAFE42A4DD55D00AB6D97 /* ContentView.swift */,
+				3B1AB00E2A4DD5B700AB6D97 /* FacilityView.swift */,
+				3B1AB0102A4DD5EA00AB6D97 /* CapsuleView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3B1AB0122A4DD61600AB6D97 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AB0132A4DD62900AB6D97 /* Option.swift */,
+				3B1AB0152A4DD65F00AB6D97 /* Exclusion.swift */,
+				3B1AB0172A4DD69900AB6D97 /* Facility.swift */,
+				3B1AB0192A4DD6C600AB6D97 /* FacilitiesContainer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3B1AB01B2A4DD6F200AB6D97 /* NetworkManager */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AB01C2A4DD71600AB6D97 /* NetworkManager.swift */,
+			);
+			path = NetworkManager;
+			sourceTree = "<group>";
+		};
+		3B1AB01E2A4DD74F00AB6D97 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				3B1AB01F2A4DD76C00AB6D97 /* FacilityViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B1AAFDE2A4DD55D00AB6D97 /* FacilityManagement */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1AB0042A4DD56000AB6D97 /* Build configuration list for PBXNativeTarget "FacilityManagement" */;
+			buildPhases = (
+				3B1AAFDB2A4DD55D00AB6D97 /* Sources */,
+				3B1AAFDC2A4DD55D00AB6D97 /* Frameworks */,
+				3B1AAFDD2A4DD55D00AB6D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FacilityManagement;
+			productName = FacilityManagement;
+			productReference = 3B1AAFDF2A4DD55D00AB6D97 /* FacilityManagement.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B1AAFEF2A4DD56000AB6D97 /* FacilityManagementTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1AB0072A4DD56000AB6D97 /* Build configuration list for PBXNativeTarget "FacilityManagementTests" */;
+			buildPhases = (
+				3B1AAFEC2A4DD56000AB6D97 /* Sources */,
+				3B1AAFED2A4DD56000AB6D97 /* Frameworks */,
+				3B1AAFEE2A4DD56000AB6D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B1AAFF22A4DD56000AB6D97 /* PBXTargetDependency */,
+			);
+			name = FacilityManagementTests;
+			productName = FacilityManagementTests;
+			productReference = 3B1AAFF02A4DD56000AB6D97 /* FacilityManagementTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B1AAFF92A4DD56000AB6D97 /* FacilityManagementUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B1AB00A2A4DD56000AB6D97 /* Build configuration list for PBXNativeTarget "FacilityManagementUITests" */;
+			buildPhases = (
+				3B1AAFF62A4DD56000AB6D97 /* Sources */,
+				3B1AAFF72A4DD56000AB6D97 /* Frameworks */,
+				3B1AAFF82A4DD56000AB6D97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B1AAFFC2A4DD56000AB6D97 /* PBXTargetDependency */,
+			);
+			name = FacilityManagementUITests;
+			productName = FacilityManagementUITests;
+			productReference = 3B1AAFFA2A4DD56000AB6D97 /* FacilityManagementUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B1AAFD72A4DD55D00AB6D97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					3B1AAFDE2A4DD55D00AB6D97 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					3B1AAFEF2A4DD56000AB6D97 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3B1AAFDE2A4DD55D00AB6D97;
+					};
+					3B1AAFF92A4DD56000AB6D97 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 3B1AAFDE2A4DD55D00AB6D97;
+					};
+				};
+			};
+			buildConfigurationList = 3B1AAFDA2A4DD55D00AB6D97 /* Build configuration list for PBXProject "FacilityManagement" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B1AAFD62A4DD55D00AB6D97;
+			productRefGroup = 3B1AAFE02A4DD55D00AB6D97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B1AAFDE2A4DD55D00AB6D97 /* FacilityManagement */,
+				3B1AAFEF2A4DD56000AB6D97 /* FacilityManagementTests */,
+				3B1AAFF92A4DD56000AB6D97 /* FacilityManagementUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B1AAFDD2A4DD55D00AB6D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1AAFEB2A4DD55F00AB6D97 /* Preview Assets.xcassets in Resources */,
+				3B1AAFE72A4DD55F00AB6D97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1AAFEE2A4DD56000AB6D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1AAFF82A4DD56000AB6D97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B1AAFDB2A4DD55D00AB6D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1AB01D2A4DD71600AB6D97 /* NetworkManager.swift in Sources */,
+				3B1AB0112A4DD5EA00AB6D97 /* CapsuleView.swift in Sources */,
+				3B1AAFE52A4DD55D00AB6D97 /* ContentView.swift in Sources */,
+				3B1AB0162A4DD65F00AB6D97 /* Exclusion.swift in Sources */,
+				3B1AB0142A4DD62900AB6D97 /* Option.swift in Sources */,
+				3B1AB01A2A4DD6C600AB6D97 /* FacilitiesContainer.swift in Sources */,
+				3B1AAFE32A4DD55D00AB6D97 /* FacilityManagementApp.swift in Sources */,
+				3B1AB0182A4DD69900AB6D97 /* Facility.swift in Sources */,
+				3B1AB00F2A4DD5B700AB6D97 /* FacilityView.swift in Sources */,
+				3B1AB0202A4DD76C00AB6D97 /* FacilityViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1AAFEC2A4DD56000AB6D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1AAFF52A4DD56000AB6D97 /* FacilityManagementTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B1AAFF62A4DD56000AB6D97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B1AB0012A4DD56000AB6D97 /* FacilityManagementUITestsLaunchTests.swift in Sources */,
+				3B1AAFFF2A4DD56000AB6D97 /* FacilityManagementUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B1AAFF22A4DD56000AB6D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1AAFDE2A4DD55D00AB6D97 /* FacilityManagement */;
+			targetProxy = 3B1AAFF12A4DD56000AB6D97 /* PBXContainerItemProxy */;
+		};
+		3B1AAFFC2A4DD56000AB6D97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B1AAFDE2A4DD55D00AB6D97 /* FacilityManagement */;
+			targetProxy = 3B1AAFFB2A4DD56000AB6D97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B1AB0022A4DD56000AB6D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B1AB0032A4DD56000AB6D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3B1AB0052A4DD56000AB6D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FacilityManagement/FacilityManagement.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FacilityManagement/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUITutorial.FacilityManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B1AB0062A4DD56000AB6D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = FacilityManagement/FacilityManagement.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FacilityManagement/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUITutorial.FacilityManagement;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B1AB0082A4DD56000AB6D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUITutorial.FacilityManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacilityManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FacilityManagement";
+			};
+			name = Debug;
+		};
+		3B1AB0092A4DD56000AB6D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUITutorial.FacilityManagementTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FacilityManagement.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FacilityManagement";
+			};
+			name = Release;
+		};
+		3B1AB00B2A4DD56000AB6D97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUITutorial.FacilityManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacilityManagement;
+			};
+			name = Debug;
+		};
+		3B1AB00C2A4DD56000AB6D97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftUITutorial.FacilityManagementUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FacilityManagement;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B1AAFDA2A4DD55D00AB6D97 /* Build configuration list for PBXProject "FacilityManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1AB0022A4DD56000AB6D97 /* Debug */,
+				3B1AB0032A4DD56000AB6D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1AB0042A4DD56000AB6D97 /* Build configuration list for PBXNativeTarget "FacilityManagement" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1AB0052A4DD56000AB6D97 /* Debug */,
+				3B1AB0062A4DD56000AB6D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1AB0072A4DD56000AB6D97 /* Build configuration list for PBXNativeTarget "FacilityManagementTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1AB0082A4DD56000AB6D97 /* Debug */,
+				3B1AB0092A4DD56000AB6D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B1AB00A2A4DD56000AB6D97 /* Build configuration list for PBXNativeTarget "FacilityManagementUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B1AB00B2A4DD56000AB6D97 /* Debug */,
+				3B1AB00C2A4DD56000AB6D97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B1AAFD72A4DD55D00AB6D97 /* Project object */;
+}
